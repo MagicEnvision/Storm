@@ -1,14 +1,12 @@
-import { View, Text, StyleSheet } from "react-native";
-import "./global.css"
+import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import GetLocation from "./screens/GetLocation";
+
 
 export default function App() {
   
   return (
-    <View className="flex bg-black h-full pt-14 px-4 ">
-      <View className="h-full">
-        <Text className="text-4xl font-semibold text-white">Todays Weather is</Text>
-        <Text className="text-5xl pt-2 text-white">Rideable</Text>
-      </View>
+    <View>
+      <GetLocation />
     </View>
   );
 }
