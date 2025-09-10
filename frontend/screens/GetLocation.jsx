@@ -5,7 +5,7 @@ import "../global.css"
 export default function GetLocation() {
   
   return (
-    <View className="flex bg-black h-full pt-14 px-4 ">
+    <View className="flex bg-black h-full pt-14 px-4">
       <View className="h-full flex items-center">
         <Text className="text-4xl font-semibold text-white">Todays Weather is</Text>
         <Feather name="map-pin" size={70} color="blue"/>

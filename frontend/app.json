@@ -1,10 +1,16 @@
 {
-   "expo": {
+  "expo": {
     "web": {
       "bundler": "metro"
     },
-  "name": "frontend",
-  "slug": "frontend"
-  }
+    "name": "frontend",
+    "slug": "frontend",
+    "plugins": [
+      "expo-router"
+    ]
+  },
   
+  "scheme": "your-app-scheme"
+
+
 }
